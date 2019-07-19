@@ -10,7 +10,7 @@ function findLongestWordLength(str) {
 findLongestWordLength(str)
 
 
-// CHECK WHETHER SECOND WORD OF THE ARRAY INCLUDES SAME LATTERS AS FIRST
+// CHECK WHETHER SECOND WORD OF THE ARRAY INCLUDES SAME LETTERS AS FIRST
 
 arr = ["hello", "lEh"]
 arr2 = ["hello", "hex"]
