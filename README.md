@@ -23,5 +23,7 @@ Using debugger in the terminal:
 
 -----------------------------------------
 .every()
+
 -> checks whether every element of an array passes the test implemented by the provided function, e.g. a function that checks whether all elements are greater than five would look like this:
+
 arr.every((v) => v > 5)
