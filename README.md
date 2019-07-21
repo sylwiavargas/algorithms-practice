@@ -20,3 +20,8 @@ Using debugger in the terminal:
 6. "exit" to exit repl & you can move onto the next debugger (or the same in the next run of the for loop eg.) by pressing c;
 7. to exit completely: ctrl + c;
 8. remember to remove the debugger and the function call!
+
+-----------------------------------------
+.every()
+-> checks whether every element of an array passes the test implemented by the provided function, e.g. a function that checks whether all elements are greater than five would look like this:
+arr.every((v) => v > 5)

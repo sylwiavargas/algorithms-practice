@@ -20,8 +20,11 @@ function palindrome(str) {
 
 ///////////////////////////// SOLUTION 2 ////////////////////////////
 // -> every() helper
-
+// 1. create an array, 2. compare the first and last elements and then second and -1, etc.
 function palindrome(str) {
+  return str.split('').every((char, i) => {
+    return char === str[str.length - i - 1] //we are doing -i to make sure it increments throughout every step and -1 because js is 0-indexed
+  })
 }
 
 
