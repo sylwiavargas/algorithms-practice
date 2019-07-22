@@ -22,8 +22,17 @@ Using debugger in the terminal:
 8. remember to remove the debugger and the function call!
 
 -----------------------------------------
-.every()
+###.every()
 
 -> checks whether every element of an array passes the test implemented by the provided function, e.g. a function that checks whether all elements are greater than five would look like this:
 
 arr.every((v) => v > 5)
+
+###Math.sign(x)
+maintains the negative/positive int, e.g. Math.sign(-1) will return -1 and Math.sign(1) will return 1
+
+###parseInt
+changes str to number
+
+###toString
+self-explanatory

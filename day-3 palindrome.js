@@ -26,6 +26,3 @@ function palindrome(str) {
     return char === str[str.length - i - 1] //we are doing -i to make sure it increments throughout every step and -1 because js is 0-indexed
   })
 }
-
-
-module.exports = palindrome;
