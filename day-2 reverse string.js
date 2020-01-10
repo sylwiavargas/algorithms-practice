@@ -36,6 +36,21 @@ function reverse(str) {
   return reversed;
 }
 
+// function reverse(str) {
+//     // let arr = str.split("")
+//     let done = '';
+//     // console.log(done)
+
+//     for (let char of str){
+//         // console.log(char)
+//         done = char + done
+//         // console.log(done)
+//     }
+
+//     return done
+// }
+
+
 //////////////////////////// SOLUTION 3 /////////////////////////////
 // 1. split into an array,
 // 2. use reduce helper function - reduce is used to take all the different values within array and condense them all down to one singular value; it takes two arguments: arrow function and initial value - in our case, it is an empty string; whenever reduce runs, it will take the starting argument, it will pass it into the arrow function the return of which will be the argument of every successive run; the arrow function has two arguments -> the placeholder reversed and the current character
